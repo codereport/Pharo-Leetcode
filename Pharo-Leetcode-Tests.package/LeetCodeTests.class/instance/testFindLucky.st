@@ -1,7 +1,7 @@
 tests
 testFindLucky
-	"Problem Link: https://leetcode.com/problems/unique-number-of-occurrences/"
-	"From Contest 156"	
+	"Problem Link: https://leetcode.com/problems/find-lucky-integer-in-an-array/"
+	"From Contest 182"	
 	self assert: (#(2 2 3 4)       findLucky) equals:  2. "test case 1"
 	self assert: (#(1 2 2 3 3 3)   findLucky) equals:  3. "test case 2"
 	self assert: (#(2 2 2 3 3)     findLucky) equals: -1. "test case 3"
